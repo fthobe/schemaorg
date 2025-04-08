@@ -39,11 +39,29 @@
     rdfs:comment "USNonprofitType: Non-profit organization type originating from the United States." ;
     rdfs:subClassOf :NonprofitType .
 
+:NonprofitAPS a :ItalyNonprofitType ;
+    rdfs:label "NonprofitAPS" ;
+    :isPartOf <https://pending.schema.org> ;
+    :source <https://github.com/schemaorg/schemaorg/issues/2543> ;
+    rdfs:comment "APS: Non-profit type referring to a charitable organization that promotes social causes, but doesn't neccessarily act by itself (IT)." .
+
+:NonprofitASD a :ItalyNonprofitType ;
+    rdfs:label "NonprofitASD" ;
+    :isPartOf <https://pending.schema.org> ;
+    :source <https://github.com/schemaorg/schemaorg/issues/2543> ;
+    rdfs:comment "ASD: Non-profit type referring to a charitable organization that primarily focuses sports related activities (IT)." .
+
 :CharitableIncorporatedOrganization a :UKNonprofitType ;
     rdfs:label "CharitableIncorporatedOrganization" ;
     :isPartOf <https://pending.schema.org> ;
     :source <https://github.com/schemaorg/schemaorg/issues/2543> ;
     rdfs:comment "CharitableIncorporatedOrganization: Non-profit type referring to a Charitable Incorporated Organization (UK)." .
+
+:NonprofitETS a :ItalyNonprofitType ;
+    rdfs:label "NonprofitETS" ;
+    :isPartOf <https://pending.schema.org> ;
+    :source <https://github.com/schemaorg/schemaorg/issues/2543> ;
+    rdfs:comment "ETS: Non-profit type referring to a charitable organization that can promote various causes actively or by promotion only (IT)." .
 
 :LimitedByGuaranteeCharity a :UKNonprofitType ;
     rdfs:label "LimitedByGuaranteeCharity" ;
@@ -278,6 +296,18 @@
     :isPartOf <https://pending.schema.org> ;
     :source <https://github.com/schemaorg/schemaorg/issues/2543> ;
     rdfs:comment "NonprofitSBBI: Non-profit type referring to a Social Interest Promoting Institution (NL)." .
+
+:NonprofitODV a :ItalyNonprofitType ;
+    rdfs:label "NonprofitODV" ;
+    :isPartOf <https://pending.schema.org> ;
+    :source <https://github.com/schemaorg/schemaorg/issues/2543> ;
+    rdfs:comment "ODV: Non-profit type referring to an organization organizing voluntary work and the members doing the work (IT)." .
+
+:NonprofitOnlus a :ItalyNonprofitType ;
+    rdfs:label "NonprofitOnlus" ;
+    :isPartOf <https://pending.schema.org> ;
+    :source <https://github.com/schemaorg/schemaorg/issues/2543> ;
+    rdfs:comment "Onlus: Non-profit type referring to a charitable organization in the most classical sense (IT)." .
 
 :UKTrust a :UKNonprofitType ;
     rdfs:label "UKTrust" ;
