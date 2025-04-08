@@ -11,6 +11,13 @@
     rdfs:comment "NLNonprofitType: Non-profit organization type originating from the Netherlands." ;
     rdfs:subClassOf :NonprofitType .
 
+:ItalyNonprofitType a rdfs:Class ;
+    rdfs:label "ItalyNonprofitType" ;
+    :isPartOf <https://pending.schema.org> ;
+    :source <https://github.com/schemaorg/schemaorg/issues/2543> ;
+    rdfs:comment "ItalyNonprofitType: Non-profit organization type originating from Italy." ;
+    rdfs:subClassOf :NonprofitType .
+
 :NonprofitType a rdfs:Class ;
     rdfs:label "NonprofitType" ;
     :isPartOf <https://pending.schema.org> ;
