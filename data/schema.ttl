@@ -657,12 +657,6 @@ See also the dedicated [document on the use of schema.org for marking up hotels 
     rdfs:label "CommunicateAction" ;
     rdfs:comment "The act of conveying information to another person via a communication medium (instrument) such as speech, email, or telephone conversation." ;
     rdfs:subClassOf :InteractAction .
-
-:CompanyRegistration a rdfs:Class ;
-     rdfs:label "CompanyRegistration" ;
-     rdfs:comment "The official registration number of a business including the organization that issued it such as Company House or Chamber of Commerce." ;
-     :domainIncludes :Organization ;
-     :rangeIncludes :Certification .
  
 :CompoundPriceSpecification a rdfs:Class ;
     rdfs:label "CompoundPriceSpecification" ;
@@ -5122,6 +5116,12 @@ See also the <a href="/docs/hotels.html">dedicated document on the use of schema
     :domainIncludes :UserComments ;
     :rangeIncludes :Date,
         :DateTime .
+
+:companyRegistration a rdf:Property ;
+     rdfs:label "companyRegistration" ;
+     rdfs:comment "The official registration number of a business including the organization that issued it such as Company House or Chamber of Commerce." ;
+     :domainIncludes :Organization ;
+     :rangeIncludes :Certification .
 
 :composer a rdf:Property ;
     rdfs:label "composer" ;
